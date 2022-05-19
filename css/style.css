@@ -248,6 +248,11 @@ body.open .hamburger .bar:last-child{
     color: var(--main-color-1);
     font-family: 'Poppins', sans-serif;
 }
+.showcase-info .social-media{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
 .showcase_area .container{
     display: grid;
     grid-template-columns: 1fr 550px;
@@ -265,7 +270,7 @@ body.open .hamburger .bar:last-child{
     margin: 0.8rem 0;
 }
 .cta{
-    margin-top: 3.5rem;
+    margin-top: 1.5rem;
     display: flex;
     align-items: center;
 }
@@ -973,5 +978,8 @@ footer .social-media{
         grid-template-columns: repeat(3, 90px);
         margin-bottom: 210px;
         column-gap: 0.5rem;
+    }
+    .showcase-info .social-media{
+        justify-content: center;
     }
 }
